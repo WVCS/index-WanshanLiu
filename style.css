@@ -1,3 +1,54 @@
-body {
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Over+the+Rainbow);
+font-family: 'Over the Rainbow', serif;
 
+{ }
+body {
+ background-color: cyan;
+  
 }
+h2 {
+  color: aqua;
+  text-align: center;
+  background-color: black;
+  border: 5px lightgreen dashed;
+  font-size: 50px;
+  font-family: 'Over the Rainbow', serif;
+}
+
+img {
+  border: dashed black 10px;
+}
+p{
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Dancing Script';
+}
+li {
+  color: salmon;
+  font-size: 25px;
+  font-family: 'Shadows Into Light';
+}
+ul {
+  text-align: center;
+  list-style: inside;
+  list-style-type: circle;
+}
+
+table, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+table {
+  width: 50%;
+  text-align: center; 
+  font-family: 'Bungee';
+}
+tr:hover {
+ background-color: white; 
+}
+tr:nth-child(even) {background-color:pink;}
+tr:nth-child(even):hover {background-color: white;}
